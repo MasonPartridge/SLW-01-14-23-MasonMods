@@ -428,7 +428,6 @@ body
     width : 100%;
     margin-top : 50px;
 }
-
 @media only screen and (max-width: 1024px){
     .description-text {
         line-height: 30px;
@@ -443,6 +442,7 @@ body
 @media only screen and (max-width: 768px){
     .section-body {
         flex-direction: column;
+        justify-content: center;
     }
 
     .description-wrapper {
@@ -509,6 +509,10 @@ body
 
 /* teachers and organizations */
 
+.benefits.section {
+    background-color: rgb(0, 70, 141);
+}
+
 .teacher-text p
 {
     font-family: 'Poppins', sans-serif;
@@ -548,6 +552,12 @@ body
     border-width : 5px;
     border-style: solid;
     border-radius : 20px;
+}
+
+@media only screen and (max-width 768px) {
+    .benefits-text {
+        line-height: 20px;
+    }
 }
 
 /* footer */
@@ -703,15 +713,6 @@ body
         width : 70%;
     }
 
-    .description-text
-    {
-        margin-top : 50%;
-        font-size : 16px;
-        width : 90%;
-        padding : 20px;
-        line-height: 40px;
-    }
-
     .description-text:hover
     {
         padding : 30px;
@@ -720,60 +721,6 @@ body
 
 
 
-}
-
-@media all and (max-width : 480px)
-{
-
-    #header-title
-    {
-        line-height: 50px;
-    }
-
-    #header-subtitle
-    {
-        font-size : 18px;
-    }
-
-    .container
-    {
-        width : 100%;
-    }
-
-    .description-container
-    {
-        margin-bottom : 560px;
-    }
-
-    .description-image
-    {
-        width : 80%;
-    }
-
-    .schools-box
-    {
-        transform:scale(.7);
-        margin : 0px;
-        width : 50%;
-    }
-
-    .schools-box:hover
-    {
-        transform:scale(.8);
-        margin : 0px;
-    }
-
-    #button
-    {
-        transform:scale(.9);
-    }
-
-    .description-title p
-    {
-        font-size : 28px;
-        padding : 0%;
-        margin : 0%;
-    }
 }
 
 @media all and (max-width : 366px)
