@@ -345,7 +345,8 @@ article
     margin-right : 5px;
     margin-left : 5px;
     text-align: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    gap: 6px;
 }
 
 .subtext
