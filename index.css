@@ -457,6 +457,10 @@ body
 
 /* benefits section */
 
+.benefits.section {
+    background-color: rgb(0, 70, 141);
+}
+
 .diagram
 {
     float : left;
@@ -507,11 +511,14 @@ body
     color :#ecaa1e;
 }
 
+@media only screen and (max-width: 768px) {
+    .benefits-text {
+        line-height: 40px;
+    }
+}
+
 /* teachers and organizations */
 
-.benefits.section {
-    background-color: rgb(0, 70, 141);
-}
 
 .teacher-text p
 {
@@ -554,11 +561,6 @@ body
     border-radius : 20px;
 }
 
-@media only screen and (max-width 768px) {
-    .benefits-text {
-        line-height: 20px;
-    }
-}
 
 /* footer */
 
